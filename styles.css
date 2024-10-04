@@ -15,11 +15,17 @@ h2
     font-size: 28px;
 }
 
-.UCSD_LOGO
+#UCSD_LOGO
 {
     max-width: 400px;
     width: 100%;
 }
+
+#UCSD_TRITON, #Colleges
+{
+    max-width: 100%;
+}
+
 
 ul
 {
@@ -93,4 +99,40 @@ ul a:hover
     max-height: 500px;
     background-color: #182b49;
 }
+
+@media screen and (max-width: 800px) 
+{
+    li a
+    {
+        display: none; 
+        text-decoration: none;
+        color: black;
+        padding: 14px 16px; 
+    }
+
+    #UCSD_LOGO
+    {
+        max-width: 75%
+    }
+
+    h2
+    {
+        padding-left: 10px;
+        font-size: 24px;
+    }
+
+   .section1, .section2, .section3
+   {
+    font-size: 20px;
+   }
+
+    .textgrid
+    {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 25px; 
+        color: white; 
+    }
+
+} 
 
