@@ -1,4 +1,8 @@
 
+html
+{
+    scroll-padding-top: 144px;
+}
 .sections
 {
     display: inline-block;
@@ -54,7 +58,7 @@ ul a:hover
 
 .section1, .section2, .section3
 {
-    scroll-margin-top: 144px;
+    scroll-margin: 144px;
 }
 
 .section1
