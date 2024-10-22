@@ -11,6 +11,8 @@ html
     top: 0;
     list-style-type: none;
     background-color:white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h2
@@ -56,9 +58,9 @@ ul a:hover
     color: white;
 }
 
-.section1, .section2, .section3
+#section1text, #section2text, .textlol
 {
-    scroll-margin: 144px;
+    padding: 25px;
 }
 
 .section1
